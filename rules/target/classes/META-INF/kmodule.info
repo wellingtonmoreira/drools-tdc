@@ -1,6 +1,14 @@
 <org.drools.core.rule.KieModuleMetaInfo>
   <typeMetaInfos>
     <entry>
+      <string>br.com.wmoreira.domains.Order</string>
+      <org.drools.core.rule.TypeMetaInfo>
+        <kind>CLASS</kind>
+        <role>FACT</role>
+        <isDeclaredType>false</isDeclaredType>
+      </org.drools.core.rule.TypeMetaInfo>
+    </entry>
+    <entry>
       <string>br.com.wmoreira.domains.Product</string>
       <org.drools.core.rule.TypeMetaInfo>
         <kind>CLASS</kind>
@@ -13,6 +21,8 @@
     <entry>
       <string>defaultpkg</string>
       <set>
+        <string>5% discount</string>
+        <string>15% discount</string>
         <string>25% profit</string>
         <string>50% profit</string>
       </set>

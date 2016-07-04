@@ -35,7 +35,10 @@ public class OrderMapper implements Mapper<OrderDTO, Order> {
         try {
             List<ProductDTO> products = new ArrayList<>();
             for (Product p : order.getProducts()) products.add(productMapper.mapFromRightObject(p));
-            return new OrderDTO(sdf.format(order.getOrderDate()), products.toArray(new ProductDTO[products.size()]), order.getTotalPrice());
+            return new OrderDTO(sdf.format(order.getOrderDate()),
+                                products.toArray(new ProductDTO[products.size()]), order.getTotalPrice(),
+                                order.getDiscount(),
+                                order.getDiscountPercentage());
         } catch (Exception exc) {
             throw new RuntimeException(exc);
         }

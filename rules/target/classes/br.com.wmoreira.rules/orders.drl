@@ -1,0 +1,18 @@
+import br.com.wmoreira.domains.Order;
+
+rule "5% discount"
+    dialect "mvel"
+    when
+        o : Order(hasProductsWithCategory("Categoria A"))
+    then
+        o.setDiscount(5);
+end
+
+rule "15% discount"
+    salience -1000
+    dialect "mvel"
+    when
+        o : Order(hasProductsWithCategory("Categoria A", "Categoria B"))
+    then
+        o.setDiscount(15);
+end
