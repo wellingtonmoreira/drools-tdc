@@ -48,4 +48,12 @@ public class Product {
     public void setCategory(String category) {
         this.category = category;
     }
+
+    public void setProfit(int profitPercentage) {
+        this.price = new BigDecimal(profitPercentage)
+                        .divide(new BigDecimal(100), 2, BigDecimal.ROUND_UP)
+                        .add(BigDecimal.ONE)
+                        .multiply(price)
+                        .setScale(2, BigDecimal.ROUND_CEILING);
+    }
 }

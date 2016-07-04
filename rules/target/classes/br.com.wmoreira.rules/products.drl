@@ -1,0 +1,17 @@
+import br.com.wmoreira.domains.Product;
+
+rule "25% profit"
+    dialect "mvel"
+    when
+        p : Product(category == "Categoria A")
+    then
+        p.setProfit(25);
+end
+
+rule "50% profit"
+    dialect "mvel"
+    when
+        p : Product(category == "Categoria B")
+    then
+        p.setProfit(50);
+end

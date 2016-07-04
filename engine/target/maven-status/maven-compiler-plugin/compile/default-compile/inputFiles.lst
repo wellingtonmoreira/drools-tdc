@@ -1,0 +1,8 @@
+/home/wellington/projects/github/drools-tdc/engine/src/main/java/com/wmoreira/engine/component/ProductComponent.java
+/home/wellington/projects/github/drools-tdc/engine/src/main/java/com/wmoreira/engine/config/AppConfig.java
+/home/wellington/projects/github/drools-tdc/engine/src/main/java/com/wmoreira/engine/config/KieBeans.java
+/home/wellington/projects/github/drools-tdc/engine/src/main/java/com/wmoreira/engine/config/WebInitializer.java
+/home/wellington/projects/github/drools-tdc/engine/src/main/java/com/wmoreira/engine/component/OrderComponent.java
+/home/wellington/projects/github/drools-tdc/engine/src/main/java/com/wmoreira/engine/config/App.java
+/home/wellington/projects/github/drools-tdc/engine/src/main/java/com/wmoreira/engine/presentation/service/ProductService.java
+/home/wellington/projects/github/drools-tdc/engine/src/main/java/com/wmoreira/engine/presentation/service/OrderService.java

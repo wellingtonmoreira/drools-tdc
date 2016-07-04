@@ -1,4 +1,21 @@
 <org.drools.core.rule.KieModuleMetaInfo>
-  <typeMetaInfos/>
-  <rulesByPackage/>
+  <typeMetaInfos>
+    <entry>
+      <string>br.com.wmoreira.domains.Product</string>
+      <org.drools.core.rule.TypeMetaInfo>
+        <kind>CLASS</kind>
+        <role>FACT</role>
+        <isDeclaredType>false</isDeclaredType>
+      </org.drools.core.rule.TypeMetaInfo>
+    </entry>
+  </typeMetaInfos>
+  <rulesByPackage>
+    <entry>
+      <string>defaultpkg</string>
+      <set>
+        <string>25% profit</string>
+        <string>50% profit</string>
+      </set>
+    </entry>
+  </rulesByPackage>
 </org.drools.core.rule.KieModuleMetaInfo>

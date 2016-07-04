@@ -1,0 +1,16 @@
+[{
+    "orderDate" : "2016-12-01",
+    "discountPercentage" : 10,
+    "products" : [{
+      "name" : "Produto 1",
+      "price" : "100.00",
+      "description" : "descricao",
+      "category" : "categoria A"
+    },
+{
+      "name" : "Produto 1",
+      "price" : "125.77",
+      "description" : "descricao",
+      "category" : "categoria A"
+    }]
+}]

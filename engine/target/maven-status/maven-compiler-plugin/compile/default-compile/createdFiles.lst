@@ -1,0 +1,9 @@
+com/wmoreira/engine/config/KieBeans.class
+com/wmoreira/engine/config/WebInitializer.class
+com/wmoreira/engine/config/App.class
+com/wmoreira/engine/component/OrderComponent.class
+com/wmoreira/engine/config/AppConfig$1.class
+com/wmoreira/engine/component/ProductComponent.class
+com/wmoreira/engine/config/AppConfig.class
+com/wmoreira/engine/presentation/service/ProductService.class
+com/wmoreira/engine/presentation/service/OrderService.class

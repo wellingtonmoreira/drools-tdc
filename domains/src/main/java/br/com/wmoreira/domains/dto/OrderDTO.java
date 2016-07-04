@@ -5,23 +5,23 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class OrderDTO implements Serializable {
-    private Date orderDate;
+    private String orderDate;
     private ProductDTO[] products;
     private BigDecimal totalPrice;
 
     public OrderDTO() {}
 
-    public OrderDTO(Date orderDate, ProductDTO[] products, BigDecimal totalPrice) {
+    public OrderDTO(String orderDate, ProductDTO[] products, BigDecimal totalPrice) {
         this.orderDate = orderDate;
         this.products = products;
         this.totalPrice = totalPrice;
     }
 
-    public Date getOrderDate() {
+    public String getOrderDate() {
         return orderDate;
     }
 
-    public void setOrderDate(Date orderDate) {
+    public void setOrderDate(String orderDate) {
         this.orderDate = orderDate;
     }
 
