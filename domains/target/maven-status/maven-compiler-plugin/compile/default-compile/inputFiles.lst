@@ -1,0 +1,7 @@
+/home/wellington/projects/github/drools-tdc/domains/src/main/java/br/com/wmoreira/domains/Product.java
+/home/wellington/projects/github/drools-tdc/domains/src/main/java/br/com/wmoreira/domains/mapper/OrderMapper.java
+/home/wellington/projects/github/drools-tdc/domains/src/main/java/br/com/wmoreira/domains/mapper/Mapper.java
+/home/wellington/projects/github/drools-tdc/domains/src/main/java/br/com/wmoreira/domains/mapper/ProductMapper.java
+/home/wellington/projects/github/drools-tdc/domains/src/main/java/br/com/wmoreira/domains/Order.java
+/home/wellington/projects/github/drools-tdc/domains/src/main/java/br/com/wmoreira/domains/dto/ProductDTO.java
+/home/wellington/projects/github/drools-tdc/domains/src/main/java/br/com/wmoreira/domains/dto/OrderDTO.java

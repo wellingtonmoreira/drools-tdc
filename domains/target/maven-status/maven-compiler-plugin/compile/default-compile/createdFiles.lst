@@ -1,0 +1,7 @@
+br/com/wmoreira/domains/Product.class
+br/com/wmoreira/domains/dto/ProductDTO.class
+br/com/wmoreira/domains/dto/OrderDTO.class
+br/com/wmoreira/domains/mapper/ProductMapper.class
+br/com/wmoreira/domains/mapper/Mapper.class
+br/com/wmoreira/domains/Order.class
+br/com/wmoreira/domains/mapper/OrderMapper.class
