@@ -1,0 +1,14 @@
+<configuration>
+  <imports>
+    <imports>
+      <import>
+        <type>java.lang.Number</type>
+      </import>
+      <import>
+        <type>br.com.wmoreira.domains.Order</type>
+        <type>br.com.wmoreira.domains.Product</type>
+      </import>
+    </imports>
+  </imports>
+  <version>1.0</version>
+</configuration>
